@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99072FF01AE577F40079C3AD /* item_get.wav in Resources */ = {isa = PBXBuildFile; fileRef = 99072FEF1AE577F40079C3AD /* item_get.wav */; };
+		99110E121AE0F7600080EBD1 /* coin_sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 99110E111AE0F7600080EBD1 /* coin_sound.wav */; };
+		99514E391ADF649000ABFD3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99514E381ADF649000ABFD3B /* AppDelegate.swift */; };
+		99514E3B1ADF649000ABFD3B /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 99514E3A1ADF649000ABFD3B /* GameScene.sks */; };
+		99514E3D1ADF649000ABFD3B /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99514E3C1ADF649000ABFD3B /* GameScene.swift */; };
+		99514E3F1ADF649000ABFD3B /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99514E3E1ADF649000ABFD3B /* GameViewController.swift */; };
+		99514E421ADF649000ABFD3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99514E401ADF649000ABFD3B /* Main.storyboard */; };
+		99514E441ADF649000ABFD3B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99514E431ADF649000ABFD3B /* Images.xcassets */; };
+		99514E471ADF649000ABFD3B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99514E451ADF649000ABFD3B /* LaunchScreen.xib */; };
+		99514E531ADF649000ABFD3B /* Catch_EmBallsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99514E521ADF649000ABFD3B /* Catch_EmBallsTests.swift */; };
+		99514E5F1ADF662800ABFD3B /* Pokemon Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 99514E5C1ADF651000ABFD3B /* Pokemon Solid.ttf */; };
+		99514E611ADF67BF00ABFD3B /* Ball.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99514E601ADF67BF00ABFD3B /* Ball.swift */; };
+		99514E631ADF8C7E00ABFD3B /* pikachu_sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 99514E621ADF8C7E00ABFD3B /* pikachu_sound.wav */; };
+		99514E6A1ADF9D3500ABFD3B /* GameOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99514E691ADF9D3500ABFD3B /* GameOverViewController.swift */; };
+		99D64D721AE0D46E0034C054 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D64D711AE0D46E0034C054 /* HelpViewController.swift */; };
+		99DBB0F61AE3859600EDC90B /* pokecenter.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 99DBB0F51AE3859600EDC90B /* pokecenter.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99514E4D1ADF649000ABFD3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99514E2B1ADF649000ABFD3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99514E321ADF649000ABFD3B;
+			remoteInfo = "Catch'EmBalls";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		99072FEF1AE577F40079C3AD /* item_get.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = item_get.wav; sourceTree = "<group>"; };
+		99110E111AE0F7600080EBD1 /* coin_sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = coin_sound.wav; sourceTree = "<group>"; };
+		99514E331ADF649000ABFD3B /* Catch'EmBalls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Catch'EmBalls.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99514E371ADF649000ABFD3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99514E381ADF649000ABFD3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		99514E3A1ADF649000ABFD3B /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		99514E3C1ADF649000ABFD3B /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		99514E3E1ADF649000ABFD3B /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		99514E411ADF649000ABFD3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		99514E431ADF649000ABFD3B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		99514E461ADF649000ABFD3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		99514E4C1ADF649000ABFD3B /* Catch'EmBallsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Catch'EmBallsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99514E511ADF649000ABFD3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99514E521ADF649000ABFD3B /* Catch_EmBallsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Catch_EmBallsTests.swift; sourceTree = "<group>"; };
+		99514E5C1ADF651000ABFD3B /* Pokemon Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pokemon Solid.ttf"; sourceTree = "<group>"; };
+		99514E601ADF67BF00ABFD3B /* Ball.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ball.swift; sourceTree = "<group>"; };
+		99514E621ADF8C7E00ABFD3B /* pikachu_sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pikachu_sound.wav; sourceTree = "<group>"; };
+		99514E691ADF9D3500ABFD3B /* GameOverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverViewController.swift; sourceTree = "<group>"; };
+		99D64D711AE0D46E0034C054 /* HelpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+		99DBB0F51AE3859600EDC90B /* pokecenter.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pokecenter.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99514E301ADF649000ABFD3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99514E491ADF649000ABFD3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E258AB7707FA7815B42C30E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		99514E2A1ADF649000ABFD3B = {
+			isa = PBXGroup;
+			children = (
+				99514E351ADF649000ABFD3B /* Catch'EmBalls */,
+				99514E4F1ADF649000ABFD3B /* Catch'EmBallsTests */,
+				99514E341ADF649000ABFD3B /* Products */,
+				3E258AB7707FA7815B42C30E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		99514E341ADF649000ABFD3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99514E331ADF649000ABFD3B /* Catch'EmBalls.app */,
+				99514E4C1ADF649000ABFD3B /* Catch'EmBallsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99514E351ADF649000ABFD3B /* Catch'EmBalls */ = {
+			isa = PBXGroup;
+			children = (
+				99514E5D1ADF660F00ABFD3B /* Ressources */,
+				99514E381ADF649000ABFD3B /* AppDelegate.swift */,
+				99514E3A1ADF649000ABFD3B /* GameScene.sks */,
+				99514E3C1ADF649000ABFD3B /* GameScene.swift */,
+				99514E691ADF9D3500ABFD3B /* GameOverViewController.swift */,
+				99514E601ADF67BF00ABFD3B /* Ball.swift */,
+				99514E3E1ADF649000ABFD3B /* GameViewController.swift */,
+				99514E401ADF649000ABFD3B /* Main.storyboard */,
+				99D64D711AE0D46E0034C054 /* HelpViewController.swift */,
+				99514E431ADF649000ABFD3B /* Images.xcassets */,
+				99514E451ADF649000ABFD3B /* LaunchScreen.xib */,
+				99514E361ADF649000ABFD3B /* Supporting Files */,
+			);
+			path = "Catch'EmBalls";
+			sourceTree = "<group>";
+		};
+		99514E361ADF649000ABFD3B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				99514E371ADF649000ABFD3B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		99514E4F1ADF649000ABFD3B /* Catch'EmBallsTests */ = {
+			isa = PBXGroup;
+			children = (
+				99514E521ADF649000ABFD3B /* Catch_EmBallsTests.swift */,
+				99514E501ADF649000ABFD3B /* Supporting Files */,
+			);
+			path = "Catch'EmBallsTests";
+			sourceTree = "<group>";
+		};
+		99514E501ADF649000ABFD3B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				99514E511ADF649000ABFD3B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		99514E5D1ADF660F00ABFD3B /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				99514E641ADF8C8000ABFD3B /* Sounds */,
+				99514E5E1ADF661600ABFD3B /* Font */,
+			);
+			name = Ressources;
+			sourceTree = "<group>";
+		};
+		99514E5E1ADF661600ABFD3B /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				99514E5C1ADF651000ABFD3B /* Pokemon Solid.ttf */,
+			);
+			name = Font;
+			sourceTree = "<group>";
+		};
+		99514E641ADF8C8000ABFD3B /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				99072FEF1AE577F40079C3AD /* item_get.wav */,
+				99110E111AE0F7600080EBD1 /* coin_sound.wav */,
+				99514E621ADF8C7E00ABFD3B /* pikachu_sound.wav */,
+				99DBB0F51AE3859600EDC90B /* pokecenter.mp3 */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99514E321ADF649000ABFD3B /* Catch'EmBalls */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99514E561ADF649000ABFD3B /* Build configuration list for PBXNativeTarget "Catch'EmBalls" */;
+			buildPhases = (
+				C93C265AE114595600F7D8D4 /* Check Pods Manifest.lock */,
+				99514E2F1ADF649000ABFD3B /* Sources */,
+				99514E301ADF649000ABFD3B /* Frameworks */,
+				99514E311ADF649000ABFD3B /* Resources */,
+				BEF03FD244A0BAD2ECF4EC3F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Catch'EmBalls";
+			productName = "Catch'EmBalls";
+			productReference = 99514E331ADF649000ABFD3B /* Catch'EmBalls.app */;
+			productType = "com.apple.product-type.application";
+		};
+		99514E4B1ADF649000ABFD3B /* Catch'EmBallsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99514E591ADF649000ABFD3B /* Build configuration list for PBXNativeTarget "Catch'EmBallsTests" */;
+			buildPhases = (
+				99514E481ADF649000ABFD3B /* Sources */,
+				99514E491ADF649000ABFD3B /* Frameworks */,
+				99514E4A1ADF649000ABFD3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99514E4E1ADF649000ABFD3B /* PBXTargetDependency */,
+			);
+			name = "Catch'EmBallsTests";
+			productName = "Catch'EmBallsTests";
+			productReference = 99514E4C1ADF649000ABFD3B /* Catch'EmBallsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99514E2B1ADF649000ABFD3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = CSUSM;
+				TargetAttributes = {
+					99514E321ADF649000ABFD3B = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					99514E4B1ADF649000ABFD3B = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 99514E321ADF649000ABFD3B;
+					};
+				};
+			};
+			buildConfigurationList = 99514E2E1ADF649000ABFD3B /* Build configuration list for PBXProject "Catch'EmBalls" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99514E2A1ADF649000ABFD3B;
+			productRefGroup = 99514E341ADF649000ABFD3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99514E321ADF649000ABFD3B /* Catch'EmBalls */,
+				99514E4B1ADF649000ABFD3B /* Catch'EmBallsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99514E311ADF649000ABFD3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99514E631ADF8C7E00ABFD3B /* pikachu_sound.wav in Resources */,
+				99072FF01AE577F40079C3AD /* item_get.wav in Resources */,
+				99514E5F1ADF662800ABFD3B /* Pokemon Solid.ttf in Resources */,
+				99110E121AE0F7600080EBD1 /* coin_sound.wav in Resources */,
+				99514E471ADF649000ABFD3B /* LaunchScreen.xib in Resources */,
+				99DBB0F61AE3859600EDC90B /* pokecenter.mp3 in Resources */,
+				99514E441ADF649000ABFD3B /* Images.xcassets in Resources */,
+				99514E3B1ADF649000ABFD3B /* GameScene.sks in Resources */,
+				99514E421ADF649000ABFD3B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99514E4A1ADF649000ABFD3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BEF03FD244A0BAD2ECF4EC3F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Catch'EmBalls/Pods-Catch'EmBalls-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C93C265AE114595600F7D8D4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99514E2F1ADF649000ABFD3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99514E611ADF67BF00ABFD3B /* Ball.swift in Sources */,
+				99D64D721AE0D46E0034C054 /* HelpViewController.swift in Sources */,
+				99514E3D1ADF649000ABFD3B /* GameScene.swift in Sources */,
+				99514E3F1ADF649000ABFD3B /* GameViewController.swift in Sources */,
+				99514E391ADF649000ABFD3B /* AppDelegate.swift in Sources */,
+				99514E6A1ADF9D3500ABFD3B /* GameOverViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99514E481ADF649000ABFD3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99514E531ADF649000ABFD3B /* Catch_EmBallsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99514E4E1ADF649000ABFD3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99514E321ADF649000ABFD3B /* Catch'EmBalls */;
+			targetProxy = 99514E4D1ADF649000ABFD3B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		99514E401ADF649000ABFD3B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99514E411ADF649000ABFD3B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		99514E451ADF649000ABFD3B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99514E461ADF649000ABFD3B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99514E541ADF649000ABFD3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		99514E551ADF649000ABFD3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99514E571ADF649000ABFD3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "Catch'EmBalls/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Catch'EmBalls/Catch'EmBalls-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		99514E581ADF649000ABFD3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "Catch'EmBalls/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Catch'EmBalls/Catch'EmBalls-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		99514E5A1ADF649000ABFD3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Catch'EmBallsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Catch'EmBalls.app/Catch'EmBalls";
+			};
+			name = Debug;
+		};
+		99514E5B1ADF649000ABFD3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Catch'EmBallsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Catch'EmBalls.app/Catch'EmBalls";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99514E2E1ADF649000ABFD3B /* Build configuration list for PBXProject "Catch'EmBalls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99514E541ADF649000ABFD3B /* Debug */,
+				99514E551ADF649000ABFD3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99514E561ADF649000ABFD3B /* Build configuration list for PBXNativeTarget "Catch'EmBalls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99514E571ADF649000ABFD3B /* Debug */,
+				99514E581ADF649000ABFD3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99514E591ADF649000ABFD3B /* Build configuration list for PBXNativeTarget "Catch'EmBallsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99514E5A1ADF649000ABFD3B /* Debug */,
+				99514E5B1ADF649000ABFD3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99514E2B1ADF649000ABFD3B /* Project object */;
+}
